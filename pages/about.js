@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from '../components/Image';
 
 const About = () => {
   return (
@@ -7,6 +8,7 @@ const About = () => {
       <Link href='/'>
         <a>Home</a>
       </Link>
+      <Image />
       <p>this is cool</p>
     </div>
   )
