@@ -10,6 +10,9 @@ const About = () => {
       </Link>
       <Image />
       <p>this is cool</p>
+      <Link href='/testPage'>
+        <a>test success?</a>
+      </Link>
     </div>
   )
 }
